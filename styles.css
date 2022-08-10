@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color:rgb(173, 216, 230,0.7);
+    
+}
+
+input{
+    height: 50px;
+    border-radius: 5px;
+}
+
+select{
+    height: 50px;
+    border-radius: 5px;
+    width: 30%;
+}
+
+option{
+    background-color: white;
+}
+.section{
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+#div1 {
+    z-index: 1;
+    position: relative;
+    left: 10%;
+    width: 390px;
+    height: 220px;
+    top: 110px;
+    background-image: url("assets/background.jpeg");
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px rgb(109, 109, 109,0.5);
+}
+
+
+#N1 img {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#N2 img{
+    margin-top: 20px;
+    margin-left: 222px;
+}
+
+#numerkarty input {
+    width: 90%;
+    margin-left: 5%;
+    padding:5%;
+    background-color:rgb(0, 0, 0,0);
+    border: 0px;
+
+}
+.cardInputS input{
+    background-color:rgb(0, 0, 0,0);
+    width: 20%;
+    margin-top: 20px;
+    Margin-left: 5%;
+    
+}
+
+#expires {
+    margin-left: 7%;
+    border: 0px;
+}
+
+#cardholder {
+    width:60%;
+    border: 0px;
+}
+
+.form {
+    width: 70%;
+    height: 500px;
+    z-index: 2;
+    background-color: rgb(255, 255, 255,0.8);
+    box-shadow: 5px 5px 5px 5px rgb(109, 109, 109,0.5);
+    border-radius: 10px;
+}
+
+.formStyle {
+    padding-top: 200px;
+    padding-left: 30px
+}
+
+
+.small_boi input{
+    width:28%;
+    margin-left: 5%;
+}
+
+.big_boi input {
+    width:95%;
+    
+}
+button {
+    width: 95%;
+    margin-top: 10px;
+    background-color: blue;
+    border:0px;
+    color: white;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px rgba(166, 167, 224, 0.5);
+}
+.pushL {
+    padding-left: 20px;
+    color:grey;
+}
+.pushR2{
+    padding-left: 50%;
+    color:grey;
+}
+.pushR{
+    padding-left: 60%;
+}
+label {
+    position: relative;
+}
